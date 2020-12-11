@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "boardproject"
+version = "0.1.0"
+description = ""
+authors = ["yoshinori.yamashita2 <yoshinori.yamashita2@persol.co.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^3.1.4"
+pillow = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
